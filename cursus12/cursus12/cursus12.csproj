@@ -99,6 +99,8 @@
   <ItemGroup>
     <Content Include="cursus12.html" />
     <Content Include="cursus13.html" />
+    <Content Include="cursus14.html" />
+    <Content Include="cursus15.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
