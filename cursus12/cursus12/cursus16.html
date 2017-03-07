@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+
+        body{
+            width : 600px;
+        }
+        form  {
+            outline : 1px dotted red;
+            padding : 0;
+            margin : 0;
+
+        }
+
+            form div {
+                position: relative;
+                display: block;
+            }
+
+            form div label {
+                display : inline;
+            }
+
+        form * {
+            box-sizing : border-box;
+        }
+
+        .fieldval {color : red;}
+
+        input[type="text"] {
+            width : 19.7em;
+            margin : 0.2em 0;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="http://www.ict.teno.be/formtest.php">
+        <p>Velden met een <img src="H:/startbestanden/img/heart.png" alt="hart" title="hart" width="10" height="10"/> zijn essentieel om uw abonnement te kunnen registreren.</p>
+        <div>
+            <label for="naam">naam:</label>
+            <input type="text" id="naam" name="naam" placeholder="uw naam" required />
+            <label class="fieldval" id="val_naam">vul uw naam in</label>
+
+            <label for="straat">Straat:</label>
+            <input type="text" id="straat" name="straat" required />
+            <label class="fieldval" id="val_straat">vul uw straat in</label>
+
+            <button type="submit">Submit</button>
+        </div>
+    
+</form>
+</body>
+</html>
