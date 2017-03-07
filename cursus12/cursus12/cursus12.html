@@ -22,8 +22,14 @@
                      border : 1px dotted blue;
         }
 
-        tbody, thead, tfoot {border-top: 2px solid gray;
+        thead {
                              border-bottom : 2px solid gray;
+        }
+
+        tfoot {border-top : 2px solid gray;}
+
+        .kolom {border-top : 2px solid gray;
+                  border-bottom : 2px solid gray;
         }
     </style>
 </head>
@@ -40,10 +46,10 @@
         </thead>
         <tbody>
             <tr>
-                <th>Product</th>
-                <th>Prijs</th>
-                <th>Aantal</th>
-                <th>Totaal</th>
+                <th class="kolom">Product</th>
+                <th class="kolom">Prijs</th>
+                <th class="kolom">Aantal</th>
+                <th class="kolom">Totaal</th>
             </tr>
             <tr>
                 <th>Appels</th>
