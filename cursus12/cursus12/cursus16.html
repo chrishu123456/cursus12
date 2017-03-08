@@ -12,45 +12,183 @@
             outline : 1px dotted red;
             padding : 0;
             margin : 0;
-
         }
-
-            form div {
-                position: relative;
+        
+        form div {
+                /* position: relative;*/
                 display: block;
             }
+        
+        form div label {
+            display : inline-block;
+            float : left;
+            width : 10em;
+            outline : dotted;
+            text-align : right;
+            padding-right : 1em;
+        }
 
-            form div label {
-                display : inline;
-            }
 
         form * {
             box-sizing : border-box;
         }
 
-        .fieldval {color : red;}
-
-        input[type="text"] {
-            width : 19.7em;
+        .fieldval {
+            color : red;
+            float : right;
+            text-align : left;
+            padding-left : 1em;
+            font-style : italic;
+            display : inline-block;
             margin : 0.2em 0;
         }
+
+        input[type="text"],input[type="tel"], input[type="date"],input[type="email"] {
+            width : 19.7em;
+            margin : 0.2em 0;
+            display : inline-block;
+        }
+
+        label.verplicht {
+            position : relative;
+            padding-right : 0.1em;
+        }
+
+        .verplicht::before{
+            content:"\2764";
+            color : red;
+            float : right;
+            padding-left : 0.3em;
+            padding-right : 0.1em;
+        }
+
+        /* select {
+            width : 10em;
+           margin : 0.2em 0;
+        }*/
+
+        .kort {
+            width : 10em;
+            margin : 0.2em 0;
+        }
+
+        input[type="radio"], input[type="checkbox"]{
+            width : 2em;
+            margin : 0.2em 0;
+            float : left;
+            text-align : left;
+        }
+
+        label.radio{
+            width : 5em;
+            margin : 0.2em 0;
+            outline : dotted;
+        }
+
+        button {
+            float : left;
+            outline : dotted;
+            margin : 0.2em 0;
+        }
+
+        div.controlbox {
+            width : 19.7em;
+            display : inline-block;
+        }
+
+        label.labelcheckbox {
+            float : right;
+            text-align : left;
+            width : 11em;
+        }
+
     </style>
 </head>
 <body>
 <form method="post" action="http://www.ict.teno.be/formtest.php">
-        <p>Velden met een <img src="H:/startbestanden/img/heart.png" alt="hart" title="hart" width="10" height="10"/> zijn essentieel om uw abonnement te kunnen registreren.</p>
-        <div>
-            <label for="naam">naam:</label>
-            <input type="text" id="naam" name="naam" placeholder="uw naam" required />
-            <label class="fieldval" id="val_naam">vul uw naam in</label>
+    <p>Velden met een <img src="H:/startbestanden/img/heart.png" alt="hart" title="hart" width="10" height="10" /> zijn essentieel om uw abonnement te kunnen registreren.</p>
+    <div>
+        <label for="naam" class="verplicht">naam:</label>
+        <input type="text" id="naam" name="naam" placeholder="uw naam" required />
+        <label class="fieldval" id="val_naam">vul uw naam in</label>
+    </div>
 
-            <label for="straat">Straat:</label>
-            <input type="text" id="straat" name="straat" required />
-            <label class="fieldval" id="val_straat">vul uw straat in</label>
+    <div>
+        <label for="straat" class="verplicht">Straat:</label>
+        <input type="text" id="straat" name="straat" required />
+        <label class="fieldval" id="val_straat">vul uw straat in</label>
+    </div>
 
-            <button type="submit">Submit</button>
-        </div>
+    <div>
+        <label for="postnummer" class="verplicht">Postnummer:</label>
+        <input type="number" id="postnummer" name="postnummer" class="kort" required />
+    </div>
+
+    <div>
+        <label for="gemeente" class="verplicht">Gemeente :</label>
+        <input type="text" id="gemeente" name="gemeente" required />
+    </div>
+
+    <div>
+        <label for="land" class="verplicht">Land:</label>
+        <select name="land" id="land" class="kort">
+            <option value="Belgie">Belgie</option>
+            <option value="Nederland">Nederland</option>
+            <option value="Duitsland">Duitsland</option>
+        </select>
+    </div>
+    <div>
+        <label for="telefoon">Telefoon:</label>
+        <input type="text" id="telefoon" name="telefoon" placeholder="uw telefoonnummer" />
+    </div>
+    <div>
+        <label for="Email" class="verplicht">Email:</label>
+        <input type="email" id="email" name="email" placeholder="uw emailadres" />
+    </div>
+
+    <div>
+        <label for="geboortedatum">Geboortedatum:</label>
+        <input type="text" id="geboortedatum" name="geboortedatum" placeholder="uw geboortedatum" />
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+
+      
     
 </form>
+    <br />
+    <br />
+    <form>
+        <div>
+            <label>Geslacht:</label>
+            <input type="radio" id="vrouw" name="geslacht" value="vrouw" />
+            <label for="vrouw" class="radio">Vrouw</label>
+
+            <input type="radio" id="man" name="geslacht" value="man" />
+            <label for="man" class="radio">Man</label>
+        </div>
+        <br />
+        <br />
+        <div>
+            <label>Competenties:</label>
+            <div class="controlbox">
+                <input type="checkbox" id="java" name="taal" value="java" />
+                <label for="java" class="labelcheckbox">Java</label>
+                <br />
+                <input type="checkbox" id="csharp" name="taal" value="csharp" />
+                <label for="csharp" class="labelcheckbox">C#</label>
+                <br />
+                  <input type="checkbox" id="php" name="taal" value="php" />
+                <label for="php" class="labelcheckbox">PHP</label>
+                <br />
+                <input type="checkbox" id="javascript" name="taal" value="javascript" />
+                <label for="javascript" class="labelcheckbox">Javascript</label>
+
+            </div>
+
+        </div>
+    </form>
 </body>
 </html>
