@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>16</title>
+	<meta charset="utf-8" />
+    <style>
+        q:lang(en) { quotes : """ """ "'" "'"; }
+        q:lang(nl) { quotes : "<" ">" "{" "}"; }
+
+        q::before {content : open-quote; }
+        q::after {content : close-quote;}
+
+        body {
+            counter-reset : hoofdstuk;
+        }
+
+        h1{
+            counter-increment : hoofdstuk;
+            counter-reset : sectie;
+            background : linear-gradient(yellow, green 80%, aqua);
+        }
+
+        h2{
+            counter-increment : sectie;
+        }
+        h1::before {content : "hoofdstuk " counter(hoofdstuk) ". ";
+        }
+
+        h2::before {content : "sectie " counter(hoofdstuk)"." counter(sectie) ". ";
+                    
+        }
+
+
+    </style>
+</head>
+<body>
+    <q lang="en">
+        lazy fox
+        <q lang="en">quote in a quote</q>
+    </q>
+    <q lang="nl">
+        de vos
+        <q>in het park</q>
+    </q>
+    <h1>genk in turmoil</h1>
+    <h2>de zombies slaan toe.</h2>
+    <h2>de andere zombies slaan toe</h2>
+    <h1>meer werk aan de winkel</h1>
+    <h2>een job als programmeur</h2>
+    <h2>een job als cnc specialist</h2>
+</body>
+</html>

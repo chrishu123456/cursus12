@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        body {box-sizing : border-box;
+              width : 100%;
+              outline : dotted red;
+              /*background-color : sandybrown;*/
+              display : block;
+
+        }
+
+        .buitenbox {
+            box-sizing : border-box;
+            width : 50%;
+            border : solid purple 10px;
+            display : block;
+            margin : 5%;
+            padding : 2%;
+            background-origin : content-box;
+            background-image : url(img/Euphorbia.jpg), url(img/Boerensmurf.gif), url(img/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg);
+            background-position :  bottom right,  bottom left, top;
+            background-repeat : no-repeat, no-repeat, no-repeat;
+        }
+
+        .binnenbox1 {
+            box-sizing : border-box;
+            width : 60%;
+            outline : dotted green;
+
+            display : inline-block;
+            padding : 5%;
+            margin : 20%;
+            border : solid 10px purple;
+            color : red;
+            opacity : 0.3;
+        }
+
+        .binnenbox2 {
+            box-sizing : border-box;
+            display : inline-block;
+            width : 5%;
+            padding : 0.01em;
+            border : 0;
+            /*border : 4px black;*/
+            background-color : aquamarine;
+            outline : dotted red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="buitenbox">
+        <div class="binnenbox1">box 1</div>
+        <div class="binnenbox2">box 2</div>
+        <div class="binnenbox2">box 2</div>
+    </div>
+</body>
+</html>
