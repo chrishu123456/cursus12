@@ -99,6 +99,7 @@
   <ItemGroup>
     <Content Include="borders.html" />
     <Content Include="box-sizing.html" />
+    <Content Include="columns.html" />
     <Content Include="cursus12.html" />
     <Content Include="cursus13.html" />
     <Content Include="cursus14.html" />

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>columns</title>
+	<meta charset="utf-8" />
+    <style>
+        @keyframes zwalpen {
+            0% {transform:scale(0.5);
+                background-color : blue;
+                border-radius : 100%;
+            }
+            50%{
+                    background-color : yellow;
+            }
+            100%{transform:scale(1.5);
+                 background-color : white;
+            }
+        }
+
+
+
+        .mc {
+            outline : dotted red;
+
+            margin : 10px;
+
+            border : black solid;
+
+            padding : 10px;
+
+            transform : translate(0px,0px) scale(1,1) rotate(0deg) skew(30deg);
+   
+    }
+
+        .vb1{
+            column-width : 14em;
+            column-gap : 20px;
+            column-rule : solid black 1px;
+        }
+
+        .vb1 h2 {
+            column-span :  all;
+            -webkit-column-span : all;
+            background-color : red;
+            text-align : center;
+            column-fill : balance;
+        }
+
+        button {
+            transition : background-color 2s ease-out;
+            background-color : red;
+        }
+
+        button:hover {
+            background-color : blue;
+        }
+
+        .element {
+            width : 100px;
+            height : 100px;
+            border : black solid;
+            animation : zwalpen, 1.5s, ease, 0s,alternate, infinite,none,running;
+        }
+        img { max-width : 100%;}
+    </style>
+    
+</head>
+<body>
+    <div class="mc vb1">
+        <h2>Scrum</h2>
+        <p><img src="img/Boerensmurf.gif" /> Bacon ipsum dolor sit amet nostrud salami minim
+swine prosciutto irure beef est dolore ut in tempor. Jerky tri‐tip meatball, tempor
+flank corned beef ut, sunt jerky ut esse. </p>
+        <p>
+            <img src="img/Euphorbia.jpg">Bresaola anim doner minim tongue aliqua duis biltong
+            bacon laborum incididunt reprehenderit. Aliqua pariatur voluptate irure, ribeye …</p>
+        <p>
+            Does your lorem ipsum text long for something a little meatier? Give our
+            generator a try… it’s tasty!
+        </p>
+        <button>Press Me.</button>
+        <div class="element"></div>
+    </div>
+</body>
+</html>
