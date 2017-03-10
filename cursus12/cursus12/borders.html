@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>borders</title>
+	<meta charset="utf-8" />
+    <style>
+        body {
+            width : 100%;
+        }
+
+        .outer
+        {
+            box-sizing : border-box;
+            background : linear-gradient(to bottom, grey, white);        
+            padding : 10px;
+            margin : 10px;
+        }
+        .inner {
+
+            box-sizing : border-box;
+            display : block;
+            width : 566px;
+            height : 489px;
+            outline : dotted red;
+            background-image : url(img/Boerensmurf.gif);
+            border : solid 10px transparent;
+            background-origin :border-box;
+            background-repeat : no-repeat;
+
+            
+            padding : 5%;
+            margin : 2%;
+            border-radius : 2em/2em;
+            color : red; 
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+
+            <p>Boerensmurf, de smurf die op het land werkt.</p>
+            <p>Dit in tegenstelling tot rode smurf.</p>
+        </div>
+    </div>
+   
+</body>
+</html>

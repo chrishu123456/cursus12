@@ -97,6 +97,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="borders.html" />
     <Content Include="box-sizing.html" />
     <Content Include="cursus12.html" />
     <Content Include="cursus13.html" />
