@@ -107,7 +107,11 @@
     <Content Include="cursus17.html" />
     <Content Include="img\757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" />
     <Content Include="img\Boerensmurf.gif" />
+    <Content Include="img\border.png" />
     <Content Include="img\Euphorbia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\Michroma.ttf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

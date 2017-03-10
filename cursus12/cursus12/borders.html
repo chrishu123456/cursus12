@@ -4,17 +4,15 @@
     <title>borders</title>
 	<meta charset="utf-8" />
     <style>
+        @font-face {
+            font-family: michroma;
+            src: url(fonts/Michroma.ttf);
+        }
+
         body {
             width : 100%;
         }
 
-        .outer
-        {
-            box-sizing : border-box;
-            background : linear-gradient(to bottom, grey, white);        
-            padding : 10px;
-            margin : 10px;
-        }
         .inner {
 
             box-sizing : border-box;
@@ -22,27 +20,43 @@
             width : 566px;
             height : 489px;
             outline : dotted red;
-            background-image : url(img/Boerensmurf.gif);
-            border : solid 10px transparent;
-            background-origin :border-box;
-            background-repeat : no-repeat;
+
+            margin : 2%;
+
+            border : solid 20px transparent;
+            border-radius : 2em/2em;
+            box-shadow : #8C91C4 10px 10px 10px 10px;
+            border-image : url(img/border.png) 30 30 round;
+
+            padding : 5%;
+
+            background-image : url(img/Boerensmurf.gif), url(img/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg);
+            background-position : bottom right, center;
+            background-origin :border-box, border-box;
+            background-repeat : no-repeat, no-repeat ;
+            background-clip : border-box, border-box;
+            background-size : auto, cover;
+            background-attachment : scroll, fixed;
+            
+            color : red; 
 
             
-            padding : 5%;
-            margin : 2%;
-            border-radius : 2em/2em;
-            color : red; 
+            
+
+
+        }
+
+        p{
+            font-family : michroma;
         }
     </style>
 </head>
 <body>
-    <div class="outer">
         <div class="inner">
 
             <p>Boerensmurf, de smurf die op het land werkt.</p>
             <p>Dit in tegenstelling tot rode smurf.</p>
         </div>
-    </div>
    
 </body>
 </html>
