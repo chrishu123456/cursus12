@@ -106,6 +106,7 @@
     <Content Include="css\forms.css" />
     <Content Include="css\menuless.css" />
     <Content Include="css\style.css" />
+    <Content Include="css\vdab_layout.css" />
     <Content Include="css\webontwikkelaar.css" />
     <Content Include="css\webontwikkelaar1.css" />
     <Content Include="css\webontwikkelaar2.css" />
@@ -134,9 +135,13 @@
     <Content Include="img\louise.jpg" />
     <Content Include="img\marie.jpg" />
     <Content Include="img\rose.jpg" />
+    <Content Include="img\top.gif" />
+    <Content Include="img\vdab_logo.gif" />
+    <Content Include="js\html5shiv.js" />
     <Content Include="js_form_ontvanger.html" />
     <Content Include="menuinless.html" />
     <Content Include="opleidingscentrum.html" />
+    <Content Include="vdab_layout.html" />
     <Content Include="webontwikkelaar_contact_afgewerkt2.html" />
     <Content Include="webontwikkelaar_contact_bootstrap_afgewerkt.html" />
     <Content Include="webontwikkelaar_home_afgewerkt1.html" />
