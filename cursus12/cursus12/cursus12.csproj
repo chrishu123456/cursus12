@@ -100,20 +100,57 @@
     <Content Include="borders.html" />
     <Content Include="box-sizing.html" />
     <Content Include="columns.html" />
+    <Content Include="css\elisemodels2_afgewerkt.css" />
+    <Content Include="css\floats.css" />
+    <Content Include="css\floats2.css" />
+    <Content Include="css\forms.css" />
+    <Content Include="css\menuless.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\webontwikkelaar.css" />
+    <Content Include="css\webontwikkelaar1.css" />
+    <Content Include="css\webontwikkelaar2.css" />
+    <Content Include="css\webontwikkelaar3.css" />
     <Content Include="cursus12.html" />
     <Content Include="cursus13.html" />
     <Content Include="cursus14.html" />
     <Content Include="cursus15.html" />
     <Content Include="cursus16.html" />
     <Content Include="cursus17.html" />
+    <Content Include="cursus7.html" />
+    <Content Include="elisemodels2.html" />
+    <Content Include="Elisemodels2_afgewerkt.html" />
+    <Content Include="floats.html" />
     <Content Include="img\757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" />
+    <Content Include="img\anouck.jpg" />
     <Content Include="img\Boerensmurf.gif" />
     <Content Include="img\border.png" />
+    <Content Include="img\elise_crombez.jpg" />
     <Content Include="img\Euphorbia.jpg" />
+    <Content Include="img\hanne.jpg" />
+    <Content Include="img\hannelore.jpg" />
+    <Content Include="img\jennifer.jpg" />
+    <Content Include="img\jill.jpg" />
+    <Content Include="img\linda.jpg" />
+    <Content Include="img\louise.jpg" />
+    <Content Include="img\marie.jpg" />
+    <Content Include="img\rose.jpg" />
+    <Content Include="js_form_ontvanger.html" />
+    <Content Include="menuinless.html" />
+    <Content Include="opleidingscentrum.html" />
+    <Content Include="webontwikkelaar_contact_afgewerkt2.html" />
+    <Content Include="webontwikkelaar_contact_bootstrap_afgewerkt.html" />
+    <Content Include="webontwikkelaar_home_afgewerkt1.html" />
+    <Content Include="webontwikkelaar_home_afgewerkt2.html" />
+    <Content Include="webontwikkelaar_home_afgewerkt3.html" />
+    <Content Include="webontwikkelaar_wat_afgewerkt2.html" />
+    <Content Include="webontwikkelaar_wat_bootstrap_afgewerkt.html" />
+    <Content Include="webontwikkelaar_wie_afgewerkt2.html" />
+    <Content Include="weer.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\Michroma.ttf" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

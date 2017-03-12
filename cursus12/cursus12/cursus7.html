@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #outer {width : 34.45%;
+                padding : 0px; 
+                border : none; 
+                margin : 10px;
+                outline : dotted;
+                height :  200px;
+                overflow : auto;
+        }
+        .inner { padding : 3.3%;
+                 border : solid 1px;
+                 margin : 4%;
+                 outline : none;
+                 width : 20.1%;
+                 float : right;
+        }
+
+        .inner :first-child{margin-left:3.3%;}
+        .inner:last-child{margin-right:3.3%;}
+
+        p{text-align : center;         
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <p>test</p>
+        <div class="inner">
+            <p>test1</p>
+        </div>
+           <div class="inner">
+            <p>test2</p>
+        </div>
+        <div class="inner">
+            <p>test3</p>
+        </div> 
+    </div>
+</body>
+</html>

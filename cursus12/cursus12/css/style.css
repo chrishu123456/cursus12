@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document 
+style.css voor boostrap oef
+*/
+
+.well{padding-left:0;padding-right:0}
+.form-inline{margin-bottom:0;}
+#logo {margin-bottom:1em;}
+h2 i[class|="icon"]{padding-right:0.4em;}
+
+
+.pic{border:1px solid silver;}
+#gmap {
+	width:100%;
+	max-width:801px;
+	height:600px;
+	background:transparent url(../../img/gmap.png) no-repeat top left;
+}
+/* env pics */
+#pic1{
+	height:400px;
+	background: transparent url(../../img/env1.jpg)no-repeat -200px -100px;
+	margin-bottom:10px; /*ruimte tussen rijen*/
+	}
+#pic4{
+	height:400px;
+	background: transparent url(../../img/env4.jpg) no-repeat top left;
+	}
+#pic2{
+	height:190px;
+	background: transparent url(../../img/env2.jpg) no-repeat top left;
+	}
+#pic3{
+	height:190px;
+	background: transparent url(../../img/env3.jpg) no-repeat ;
+	top:-160px;
+	left:20px;
+	}
