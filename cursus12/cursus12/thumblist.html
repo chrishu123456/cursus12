@@ -12,6 +12,49 @@ body {
 	width: 26em;								/*  400px */
 	padding:0;
 }
+
+/* UL. thumblist */
+
+.thumblist {
+    width : 100%;
+    margin : 0;
+    list-style-type : none;
+    padding : 0.5em 0;
+    font-size : 0.75em;
+    background : #EEE;
+
+}
+
+.thumblist li {
+    border : dashed grey 1px;
+    margin : 0.5em;
+    padding : 0.5em;
+    height : 7.1666em;
+    overflow : hidden;
+}
+
+.thumblist img {
+    float : left;
+    margin-right : 0.5em;
+}
+
+.thumblist a {
+    text-decoration : none;
+    color : inherit;
+}
+
+.thumblist h4 {
+    font-size : 1.1666em;
+    margin : 0 0 0.1em 0;
+    color : blue;
+}
+
+.thumblist p {
+    margin-bottom : 0.1em;
+    margin-left : 7.1666em;
+}
+
+
 </style>
 </head>
 
@@ -19,7 +62,7 @@ body {
 <h1>Teaser Thumbnail List</h1>
 <h2>Plantengroepen in onze winkel</h2>
 <div class="kolom">
-  <ul id="plantenmenu">
+  <ul id="plantenmenu" class="thumblist">
     <li><a href="../../projecten/plantenshop_shop.php?cat=1" title="E&eacute;n- en tweejarigen" > <img src="img/poppies80.jpg" alt="Vaste planten en kruiden">
       <h4>E&eacute;n- en tweejarigen</h4>
       </a>
