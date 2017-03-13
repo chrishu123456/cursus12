@@ -131,6 +131,7 @@
     <Content Include="floats.html" />
     <Content Include="img\757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" />
     <Content Include="img\anouck.jpg" />
+    <Content Include="img\anthony_pinet_175.jpg" />
     <Content Include="img\Boerensmurf.gif" />
     <Content Include="img\border.png" />
     <Content Include="img\check.png" />
@@ -141,10 +142,14 @@
     <Content Include="img\HTML5_Logo_128.png" />
     <Content Include="img\hydrangea80.jpg" />
     <Content Include="img\jennifer.jpg" />
+    <Content Include="img\jeremy_keters_175.jpg" />
     <Content Include="img\jill.jpg" />
+    <Content Include="img\krispijn_joseph_175.jpg" />
+    <Content Include="img\kristof_moerman_175.jpg" />
     <Content Include="img\linda.jpg" />
     <Content Include="img\louise.jpg" />
     <Content Include="img\marie.jpg" />
+    <Content Include="img\martika_rashidi_175.jpg" />
     <Content Include="img\mockup1.jpg" />
     <Content Include="img\php_code.jpg" />
     <Content Include="img\poppies80.jpg" />
@@ -159,12 +164,14 @@
     <Content Include="img\waterlelie80.jpg" />
     <Content Include="img\web-developer.jpg" />
     <Content Include="img\winde80.jpg" />
+    <Content Include="img\wouter_claeys_175.jpg" />
     <Content Include="js\html5shiv.js" />
     <Content Include="js_form_ontvanger.html" />
     <Content Include="menuinless.html" />
     <Content Include="opleidingscentrum.html" />
     <Content Include="thumblist.html" />
     <Content Include="vdab_layout.html" />
+    <Content Include="webontwikkelaar_contact.html" />
     <Content Include="webontwikkelaar_contact_afgewerkt2.html" />
     <Content Include="webontwikkelaar_contact_bootstrap_afgewerkt.html" />
     <Content Include="webontwikkelaar_home.html" />
@@ -174,6 +181,7 @@
     <Content Include="webontwikkelaar_wat.html" />
     <Content Include="webontwikkelaar_wat_afgewerkt2.html" />
     <Content Include="webontwikkelaar_wat_bootstrap_afgewerkt.html" />
+    <Content Include="webontwikkelaar_wie.html" />
     <Content Include="webontwikkelaar_wie_afgewerkt2.html" />
     <Content Include="weer.html" />
   </ItemGroup>
