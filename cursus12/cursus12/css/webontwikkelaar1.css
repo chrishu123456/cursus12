@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document voor webontwikkelaar oefening
 
 	deel1: structuur aanbrengen en fluid layout, kolommen
@@ -194,7 +194,7 @@ section {
 ul.infoblokjes {
 	font-size:0.875em;
 	list-style:square;
-	list-style-image:url(../../img/check.png);
+	list-style-image:url(../img/check.png);
 	margin-left:-2%;
 	margin-bottom: 2em;
 }

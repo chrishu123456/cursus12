@@ -1,0 +1,103 @@
+﻿/* algemeen */
+
+body {
+}
+
+/* header */
+
+.header {
+    border-bottom : solid gray 1px;
+}
+.formheader {
+    background-color : #7ea107;
+    overflow : auto;
+    display : block;
+}
+
+.extraclass {
+    margin : 0 auto;
+    width : 80%;
+    text-align : right;
+}
+
+.hoofdmenuheader {
+    display : block;
+    width : 80%;
+    overflow : auto;
+    margin : 10px auto;
+}
+
+.logo {
+    float : left;
+}
+
+.hoofdmenu ul {
+    float : right;
+    margin : 80px 0 0 0;
+}
+.hoofdmenu ul li {
+    display : inline-block;
+    border-right : solid 1px red;
+}
+
+.hoofdmenu ul li:last-child {
+    border-right: none;
+}
+
+.hoofdmenu ul li a {
+    text-decoration : none;
+}
+/* midden */
+.rij1 {
+    display : block;
+    overflow : auto;
+    width : 80%;
+    margin : 0 auto;
+}
+
+.rij1kolom1 {
+    float : left;
+}
+
+.rij1kolom1 h1 {
+    color : #7ea107;
+}
+
+.rij1kolom2 {
+    float : right;
+    margin : 30px 0 0 0;
+    border : solid #DCDAD8 1px;
+}
+
+.rij1kolom2 img {
+ /*   width : 60%;*/
+}
+.rij2 {
+    display : block;
+    background : url(../img/top.gif);
+    width : 80%;
+    margin : 0 auto;
+}
+
+
+.rij2rij1 img {
+    float : left;
+    margin : -30px 0 0 0;
+}
+
+.rij2rij2 {
+    display : block;
+}
+
+.rij2rij2 ul {
+    display : inline-block;
+}
+
+.rij2rij2 ul li {
+    float : left;
+    width : 30%;
+    padding : 4px;
+    margin : 8px;
+}
+/* footer */
+

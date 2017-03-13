@@ -10,7 +10,7 @@ startbestand
 div {
 	margin:0;
 	padding:0;
-        outline : dotted red 1px;
+     /*   outline : dotted red 1px;*/
 	}
 body {
 	background: #FFF;
@@ -33,11 +33,12 @@ header {
 	position: relative;
 	padding:0;
 	height:101px;
-    outline : dotted red 1px;
+  /*  outline : dotted red 1px;*/
 }
 #logo{
 	float:left;	
 	padding:0;
+    margin : 0 0 0 -120px;
 }
 header ul {
 	margin: 0.5em;
@@ -78,35 +79,57 @@ header h3{font-size:1.1em;margin:0.2em 0; line-height:1.2em;}
 /****container class****/
 
 .container  {
-   /* overflow : auto;*/
-    width : 960px;
+   /* width : 960px;*/
     margin : 0 auto;
+ width : 80%;
+ min-width : 800px;
+}
+
+#inhoud {
+    background-color : lightblue;
+  /*  background : url(../img/scheidingslijnen.png) */
 }
 .container h1 {color:gray;	}
 
 /****aside, kolommen****/
 
 aside 	{
-        outline : dotted red 1px;
-
+       /* outline : dotted red 1px;*/
+       /* float : left;*/
+       /* width : 33%;*/
+              /*  margin-right :0.5%;*/
+        padding : 4px;
+        border : 2px solid #E4F0F3;
+        box-sizing : border-box;
 }
 .kol 	{
-    width : 30%;
-    float : left;
+   /* width : 33%;*/ 
+   /* float : left;*/
     background-color : lightblue;
-        border : lightblue;
+     /*   border : lightblue;*/
+      /*  margin-right : 0.5%;*/
+        padding : 4px;
+       border :2px solid #E4F0F3;
+       box-sizing : border-box;
+}
+
+.kol:last-child {/*margin-right : 0;*/
+                /* border-right : 0;*/
+}
+
+.een {
+    float :left;
+    width : 180px;
 }
 .twee	{
-    width : 30%;
-    float : left;
     background-color : lightblue;
         border : lightblue;
+        margin : 0 246px 0 186px;
 }
 .drie	{
-    width : 30%;
-    float : left;
     background-color : lightblue;
-    border : solid black 1px;
+    float : right;
+    width : 220px;
 }
 
 /****footer****/
@@ -115,7 +138,7 @@ footer {
 	padding: 1em 3em 0;
 	border-top: 1px solid silver;
 	text-align: center;
-        outline : dotted red 1px;
+      /*  outline : dotted red 1px;*/
 }
 footer ul {
 	margin: 0;
@@ -130,5 +153,14 @@ footer p {
 	font-size: smaller;
 }
 
+/* clearfix hack*/
+.clearFix:after, .clearFix:before {
+    content : " ";
+    display : table;
 
+}
+
+.clearFix:after{
+    clear : both;
+}
 
