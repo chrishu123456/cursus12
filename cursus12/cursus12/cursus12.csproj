@@ -102,12 +102,15 @@
     <Content Include="box-sizing.html" />
     <Content Include="breadcrums.html" />
     <Content Include="columns.html" />
+    <Content Include="css\desertlife.css" />
+    <Content Include="css\desertlife_menu.css" />
     <Content Include="css\elisemodels2_afgewerkt.css" />
     <Content Include="css\floats.css" />
     <Content Include="css\floats2.css" />
     <Content Include="css\forms.css" />
     <Content Include="css\gazet.css" />
     <Content Include="css\menuless.css" />
+    <Content Include="css\normalize.css" />
     <Content Include="css\style.css" />
     <Content Include="css\vdab_layout.css" />
     <Content Include="css\webontwikkelaar.css" />
@@ -122,6 +125,7 @@
     <Content Include="cursus16.html" />
     <Content Include="cursus17.html" />
     <Content Include="cursus7.html" />
+    <Content Include="desertlife.html" />
     <Content Include="elisemodels2.html" />
     <Content Include="Elisemodels2_afgewerkt.html" />
     <Content Include="floats.html" />
